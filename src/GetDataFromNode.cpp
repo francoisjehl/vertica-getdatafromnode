@@ -2,7 +2,6 @@
 #include <sstream>
 
 #define NODE_PARAM "node"
-#define CANCEL_CHECK_GRAIN 10000
 
 using namespace Vertica;
 

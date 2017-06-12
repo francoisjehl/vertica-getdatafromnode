@@ -3,8 +3,8 @@ A UDTF that allows fetching data from a single Vertica node
 
 ## Dependencies
 
-Vertica installed at /opt/vertica (sdk being underneath).
-
+- **CMake**
+- **Vertica** installed at /opt/vertica (sdk being underneath).
 
 ## Compile
 
@@ -15,7 +15,7 @@ make
 make install
 ```
 
-## Install
+## Register
 
 ```
 CREATE OR REPLACE LIBRARY libgetdatafromnode 
